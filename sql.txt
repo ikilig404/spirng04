@@ -1,0 +1,13 @@
+create table tbl_member (
+    member_id int(20) AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255),
+    balance VARCHAR(255)
+);
+
+create table tbl_goods (
+    goods_id int(20) AUTO_INCREMENT PRIMARY KEY,
+    price VARCHAR(255),
+    quantity VARCHAR(255)
+);
+
+insert into tbl_goods(price, quantity) values(80.0, 'good');
